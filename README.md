@@ -6,19 +6,27 @@
 
 Для компиляции программы с типом double на make
 
+git checkout make
+
 make
 
 Для компиляции программы с типом float на make
 
-make
+git checkout make
+
+make option=float
 
 Для компиляции программы с типом double на cmake 
+
+git checkout cmake
 
 cmake -S . -B build 
 
 cmake --build build
 
 Для компиляции программы с типом float на cmake
+
+git checkout cmake
 
 cmake -S . -B build2 -D float=ON
 
