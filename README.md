@@ -31,3 +31,7 @@ git checkout cmake
 cmake -S . -B build2 -D float=ON
 
 cmake --build build2
+
+# ParallelProgram2
+
+Нужно перейти на ветку master, чтобы иметь доступ ко второй лаборатной работе по Параллельному программированию
